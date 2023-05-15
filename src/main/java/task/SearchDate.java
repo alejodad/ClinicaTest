@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import userinterfaces.FamisanarHomeLogin;
 import userinterfaces.FamisanarWelcome;
-
+import net.serenitybdd.screenplay.actions.SelectFromOptions;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClickable;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
