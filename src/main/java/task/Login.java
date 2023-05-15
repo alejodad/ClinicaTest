@@ -29,6 +29,7 @@ public class Login implements Task {
                  WaitUntil.angularRequestsHaveFinished(),
                  WaitUntil.the(FamisanarWelcome.AFILIADO, isVisible()).forNoMoreThan(180).seconds(),
                  Click.on(FamisanarWelcome.AFILIADO),
+                 WaitUntil.the(FamisanarWelcome.CITAS_POS, isClickable()),
                  Click.on(FamisanarWelcome.CITAS_POS),
                  Click.on(FamisanarWelcome.CAFAM)
 
