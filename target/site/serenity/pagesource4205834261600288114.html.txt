@@ -1,0 +1,449 @@
+<html xmlns:jsp="http://java.sun.com/JSP/Page" version="1.2" id="document:html" lang="es"><head><title id="document:title"></title>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"><meta content="IE=8" http-equiv="X-UA-Compatible"><meta content="text/html; charset=UTF-8" http-equiv="content-type"><meta content=" en Linea" name="description"><meta content="spanish" name="language"><meta name="author"><meta content="no-cache" http-equiv="cache-control"><meta content="no-cache" http-equiv="pragma"><script src="/Portal/js/code.js" language="javascript" type="text/javascript"></script>
+<script src="/Portal/js/block.js" language="javascript" type="text/javascript"></script>
+<script src="/Portal/js/jquery-1.9.1.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript">
+            initTabRoll('/Portal');            
+            addLoadEvent(initTabRoll);</script>
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/Portal/imgs/favicon.ico"><link rel="stylesheet" type="text/css" href="/Portal/css/estructura.css" media="screen"><link rel="stylesheet" type="text/css" href="/Portal/css/famisanar.css"><link rel="stylesheet" type="text/css" href="/Portal/css/famisanar.css" media="screen"><link rel="stylesheet" type="text/css" href="/Portal/css/rime/rime.css" media="screen"><link rel="stylesheet" type="text/css" href="/Portal/css/estructura.css" media="print"><link rel="stylesheet" type="text/css" href="/Portal/css/famisanar.css" media="print"><link rel="stylesheet" type="text/css" href="/Portal/css/rime/rime.css" media="print"><link rel="stylesheet" type="text/css" href="/Portal/css/fontawesome-all.css"><meta name="icefaces" content="Rendered by ICEFaces D2D"><script type="text/javascript" src="/Portal/xmlhttp/1682675070418/icefaces-d2d.js"></script>
+<script type="text/javascript" src="/Portal/xmlhttp/1682675070418/ice-extras.js"></script>
+<script type="text/javascript">try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {}</script></head>
+<body id="document:body"><iframe id="history-frame:ZJ6oG_7-7fSrsmtUABJMHg:5" name="history-frame:ZJ6oG_7-7fSrsmtUABJMHg:5" title="Icefaces Redirect" src="/Portal/xmlhttp/blank" frameborder="0" style="z-index: 10000; visibility: hidden; width: 0; height: 0; position: absolute; opacity: 0.22; filter: alpha(opacity=22);"></iframe>
+<script id="ZJ6oG_7-7fSrsmtUABJMHg:5:configuration-script" type="text/javascript">if (!window.sessions) window.sessions = []; window.sessions.push('ZJ6oG_7-7fSrsmtUABJMHg');
+window.disposeViewsURI = '/async-http-server/block/dispose-views';
+var container = 'ZJ6oG_7-7fSrsmtUABJMHg:5:configuration-script'.asElement().parentNode;
+container.bridge = new Ice.Community.Application({session: 'ZJ6oG_7-7fSrsmtUABJMHg',view: 5,synchronous: true,connectionLostRedirectURI: null,sessionExpiredRedirectURI: '/home.jspx',connection: {context: {current: '/Portal/',async: '/async-http-server/'},timeout: 3000000,heartbeat: {interval: 900000,timeout: 900000,retries: 3}},messages: {sessionExpired: 'User Session Expired',connectionLost: 'Network Connection Interrupted',serverError: 'Server Internal Error',description: 'To reconnect click the Reload button on the browser or click the button below',buttonText: 'Reload'}}, container);</script>
+<div style="display:none"><div id="_id30" class="iceOutConStat"><div id="_id30:connection-idle" class="iceOutConStatInactv" style="visibility: visible;"></div>
+<div id="_id30:connection-working" class="iceOutConStatActv" style="visibility: hidden;"></div>
+<div id="_id30:connection-trouble" class="iceOutConStatCaution" style="visibility: hidden;"></div>
+<div id="_id30:connection-lost" class="iceOutConStatDisconnect" style="visibility: hidden;"></div>
+<script type="text/javascript">'_id30'.asExtendedElement().findContainerFor('bridge').bridge.attachStatusManager(function(defaultStatusManager) {return new Ice.Status.ComponentStatusManager('_id30:connection-working', '_id30:connection-idle', '_id30:connection-trouble', '_id30:connection-lost', defaultStatusManager, false, true);});</script></div></div>
+<div id="marcoPagina"><jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="1.2"><div id="encabezado" width="871px" xmlns:jsp="http://java.sun.com/JSP/Page" version="1.2"><script src="/Portal/js/block.js" type="text/javascript"></script>
+<table width="100%" cellpadding="0" cellspacing="0"><tbody><tr><td colspan="2" class="bordeIzquierdo">&nbsp;</td><td class="superiorIzquierda">&nbsp;</td><td class="superiorCentro">&nbsp;</td><td colspan="2" class="superiorDerecha"><form id="headerForm" method="post" action="javascript:;" enctype="application/x-www-form-urlencoded" onsubmit="return false;"><script type="text/javascript">$element(document.getElementById('headerForm')).captureAndRedirectSubmit();</script><input type="hidden" name="headerForm" value="headerForm"><input type="hidden" name="icefacesCssUpdates" value=""><a href="javascript:;" id="headerForm:salirLink" onclick="var form=formOf(this);form['headerForm:_idcl'].value='headerForm:salirLink';return iceSubmit(form,this,event);" class="iceCmdLnk" style="font-weight: bold; position:relative; border:0px; right:-620px;  " title="Salir" onfocus="setFocus(this.id);" onblur="setFocus('');"><font face="Helvetica" color="#007CC4" size="4"> Salir</font></a>
+&nbsp;&nbsp;<a id="headerForm:inicioPortalLink" href="http://www.famisanar.com.co" title="EPS FAMISANAR S.A.S." style="font-weight: bold; position:relative; right:-620px; border:0px;  "><font face="Helvetica" color="#007CC4" size="4"> Inicio</font></a>
+&nbsp;&nbsp;<div id="headerFormhdnFldsDiv" style="display:none;"><input type="hidden" name="headerForm:_idcl"></div></form></td><td colspan="2" class="bordeDerecho">&nbsp;</td></tr>
+<tr><td colspan="2" class="bordeIzquierdo">&nbsp;</td><td colspan="4" style="border-bottom:solid #1CB8C5; border-bottom-width: 2px; padding:0;  border-collapse: collapse; clear: both;  margin: 0; padding: 0; border: 2; vertical-align: 0;  "><a><img height="105" alt="EPS FAMISANAR S.A.S." width="100%" align="top" src="/Portal/imgs/banner_eps_usu.jpg"></a></td><td colspan="2" class="bordeDerecho">&nbsp;</td></tr></tbody></table></div>
+    
+</jsp:root>
+<div id="marcoContenido"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="bordeIzquierdo">&nbsp;</td><td width="230" valign="top" bgcolor="#FFFFFF"><div id="navegacion"><table cellpadding="0" cellspacing="0"><tbody><tr><td><div id="menu">
+<table cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="encabezadoMenu">
+&nbsp;
+</td>
+</tr>
+<tr>
+<td bgcolor="#e4ecf7" class="itemMenu" onmouseover="menuRoll(this);" onmouseout="menuRoll(this)">
+<a href="/Portal/pages/menu/selectMenu.jspx?id=2">
+Afiliado POS
+</a>
+</td>
+</tr>
+<tr>
+<td class="pieMenu">
+&nbsp;
+</td>
+</tr>
+</tbody></table>
+</div></td></tr>
+<tr><td><div id="opciones">
+<!-- inicio de tabla de opciones --><table cellpadding="0" cellspacing="0" border="0" width="197" align="center">
+
+<!-- processFirstLevel -->
+<!-- fila 1 nivel processFirstLevel --><tbody><tr>
+<td class="fila1Nivel" onmouseover="optionFirstLevelRoll(this);" onmouseout="optionFirstLevelRoll(this);">
+<div class="handPointer" onclick="showOption('option20');">
+Actualización Datos de Contacto
+</div>
+</td>
+</tr>
+<!-- /fila 1 nivel processFirstLevel -->
+
+<!-- fila 2 nivel processFirstLevel -->
+<tr>
+<td align="center">
+<div id="option20" style="display: block;">
+<table width="185" border="0" class="tabla2nivel">
+
+<!-- processSecondLevel -->
+<tbody><tr height="21" onmouseover="changue_over_color(this)" onmouseout="changue_out_color(this)">
+<td height="21"><img src="/Portal/imgs/bullet.gif" width="10" height="10">
+</td>
+<td width="100%">
+<p align="left" style="margin:0;">
+<a href="/Portal/pages/menu/selectOption.jspx?id=21">
+Actualizar Información Afiliado
+</a>
+</p>
+
+</td>
+</tr>
+
+<!-- fila 3 nivel processSecondLevel --><tr>
+<td colspan="2" align="left">
+<div id="option21" style="display:none">
+
+</div>
+</td>
+</tr>
+<!-- /fila 3 nivel processSecondLevel -->
+<!-- end processSecondLevel -->
+
+</tbody></table>
+</div>
+</td>
+</tr>
+<!-- /fila 2 nivel processFirstLevel -->
+<!-- end processFirstLevel -->
+
+<!-- processFirstLevel -->
+<!-- fila 1 nivel processFirstLevel --><tr>
+<td class="fila1Nivel" onmouseover="optionFirstLevelRoll(this);" onmouseout="optionFirstLevelRoll(this);">
+<div class="handPointer" onclick="showOption('option380');">
+Autorizaciones
+</div>
+</td>
+</tr>
+<!-- /fila 1 nivel processFirstLevel -->
+
+<!-- fila 2 nivel processFirstLevel -->
+<tr>
+<td align="center">
+<div id="option380" style="display:none;">
+<table width="185" border="0" class="tabla2nivel">
+
+<!-- processSecondLevel -->
+<tbody><tr height="21" onmouseover="changue_over_color(this)" onmouseout="changue_out_color(this)">
+<td height="21"><img src="/Portal/imgs/bullet.gif" width="10" height="10">
+</td>
+<td width="100%">
+<p align="left" style="margin:0;">
+<a href="/Portal/pages/menu/selectOption.jspx?id=508">
+Solicitud de Servicios
+</a>
+</p>
+
+</td>
+</tr>
+
+<!-- fila 3 nivel processSecondLevel --><tr>
+<td colspan="2" align="left">
+<div id="option508" style="display:none">
+
+</div>
+</td>
+</tr>
+<!-- /fila 3 nivel processSecondLevel -->
+<!-- end processSecondLevel -->
+
+<!-- processSecondLevel -->
+<tr height="21" onmouseover="changue_over_color(this)" onmouseout="changue_out_color(this)">
+<td height="21"><img src="/Portal/imgs/bullet.gif" width="10" height="10">
+</td>
+<td width="100%">
+<p align="left" style="margin:0;">
+<a href="/Portal/pages/menu/selectOption.jspx?id=381">
+Consultar Autorizaciones
+</a>
+</p>
+
+</td>
+</tr>
+
+<!-- fila 3 nivel processSecondLevel --><tr>
+<td colspan="2" align="left">
+<div id="option381" style="display:none">
+
+</div>
+</td>
+</tr>
+<!-- /fila 3 nivel processSecondLevel -->
+<!-- end processSecondLevel -->
+
+<!-- processSecondLevel -->
+<tr height="21" onmouseover="changue_over_color(this)" onmouseout="changue_out_color(this)">
+<td height="21"><img src="/Portal/imgs/bullet.gif" width="10" height="10">
+</td>
+<td width="100%">
+<p align="left" style="margin:0;">
+<a href="/Portal/pages/menu/selectOption.jspx?id=434">
+Consulta Radicaciones MIPRES
+</a>
+</p>
+
+</td>
+</tr>
+
+<!-- fila 3 nivel processSecondLevel --><tr>
+<td colspan="2" align="left">
+<div id="option434" style="display:none">
+
+</div>
+</td>
+</tr>
+<!-- /fila 3 nivel processSecondLevel -->
+<!-- end processSecondLevel -->
+
+</tbody></table>
+</div>
+</td>
+</tr>
+<!-- /fila 2 nivel processFirstLevel -->
+<!-- end processFirstLevel -->
+
+<!-- processFirstLevel -->
+<!-- fila 1 nivel processFirstLevel --><tr>
+<td class="fila1Nivel" onmouseover="optionFirstLevelRoll(this);" onmouseout="optionFirstLevelRoll(this);">
+<div class="handPointer" onclick="showOption('option363');">
+Certificaciones
+</div>
+</td>
+</tr>
+<!-- /fila 1 nivel processFirstLevel -->
+
+<!-- fila 2 nivel processFirstLevel -->
+<tr>
+<td align="center">
+<div id="option363" style="display:none;">
+<table width="185" border="0" class="tabla2nivel">
+
+<!-- processSecondLevel -->
+<tbody><tr height="21" onmouseover="changue_over_color(this)" onmouseout="changue_out_color(this)">
+<td height="21"><img src="/Portal/imgs/bullet.gif" width="10" height="10">
+</td>
+<td width="100%">
+<p align="left" style="margin:0;">
+<a href="/Portal/pages/menu/selectOption.jspx?id=585">
+Certificado Incapacidad
+</a>
+</p>
+
+</td>
+</tr>
+
+<!-- fila 3 nivel processSecondLevel --><tr>
+<td colspan="2" align="left">
+<div id="option585" style="display:none">
+
+</div>
+</td>
+</tr>
+<!-- /fila 3 nivel processSecondLevel -->
+<!-- end processSecondLevel -->
+
+<!-- processSecondLevel -->
+<tr height="21" onmouseover="changue_over_color(this)" onmouseout="changue_out_color(this)">
+<td height="21"><img src="/Portal/imgs/bullet.gif" width="10" height="10">
+</td>
+<td width="100%">
+<p align="left" style="margin:0;">
+<a href="/Portal/pages/menu/selectOption.jspx?id=377">
+Afiliación  
+</a>
+</p>
+
+</td>
+</tr>
+
+<!-- fila 3 nivel processSecondLevel --><tr>
+<td colspan="2" align="left">
+<div id="option377" style="display:none">
+
+</div>
+</td>
+</tr>
+<!-- /fila 3 nivel processSecondLevel -->
+<!-- end processSecondLevel -->
+
+<!-- processSecondLevel -->
+<tr height="21" onmouseover="changue_over_color(this)" onmouseout="changue_out_color(this)">
+<td height="21"><img src="/Portal/imgs/bullet.gif" width="10" height="10">
+</td>
+<td width="100%">
+<p align="left" style="margin:0;">
+<a href="/Portal/pages/menu/selectOption.jspx?id=448">
+Certificado Utilización POS
+</a>
+</p>
+
+</td>
+</tr>
+
+<!-- fila 3 nivel processSecondLevel --><tr>
+<td colspan="2" align="left">
+<div id="option448" style="display:none">
+
+</div>
+</td>
+</tr>
+<!-- /fila 3 nivel processSecondLevel -->
+<!-- end processSecondLevel -->
+
+</tbody></table>
+</div>
+</td>
+</tr>
+<!-- /fila 2 nivel processFirstLevel -->
+<!-- end processFirstLevel -->
+
+<!-- processFirstLevel -->
+<!-- fila 1 nivel processFirstLevel --><tr>
+<td class="fila1Nivel" onmouseover="optionFirstLevelRoll(this);" onmouseout="optionFirstLevelRoll(this);">
+<div class="handPointer" onclick="showOption('option375');">
+Carné
+</div>
+</td>
+</tr>
+<!-- /fila 1 nivel processFirstLevel -->
+
+<!-- fila 2 nivel processFirstLevel -->
+<tr>
+<td align="center">
+<div id="option375" style="display:none;">
+<table width="185" border="0" class="tabla2nivel">
+
+<!-- processSecondLevel -->
+<tbody><tr height="21" onmouseover="changue_over_color(this)" onmouseout="changue_out_color(this)">
+<td height="21"><img src="/Portal/imgs/bullet.gif" width="10" height="10">
+</td>
+<td width="100%">
+<p align="left" style="margin:0;">
+<a href="/Portal/pages/menu/selectOption.jspx?id=376">
+Impresion Carné
+</a>
+</p>
+
+</td>
+</tr>
+
+<!-- fila 3 nivel processSecondLevel --><tr>
+<td colspan="2" align="left">
+<div id="option376" style="display:none">
+
+</div>
+</td>
+</tr>
+<!-- /fila 3 nivel processSecondLevel -->
+<!-- end processSecondLevel -->
+
+</tbody></table>
+</div>
+</td>
+</tr>
+<!-- /fila 2 nivel processFirstLevel -->
+<!-- end processFirstLevel -->
+
+<!-- processFirstLevel -->
+<!-- fila 1 nivel processFirstLevel --><tr>
+<td class="fila1Nivel" onmouseover="optionFirstLevelRoll(this);" onmouseout="optionFirstLevelRoll(this);">
+<div class="handPointer" onclick="showOption('option426');">
+Citas Médicas POS
+</div>
+</td>
+</tr>
+<!-- /fila 1 nivel processFirstLevel -->
+
+<!-- fila 2 nivel processFirstLevel -->
+<tr>
+<td align="center">
+<div id="option426" style="display:none;">
+<table width="185" border="0" class="tabla2nivel">
+
+<!-- processSecondLevel -->
+<tbody><tr height="21" onmouseover="changue_over_color(this)" onmouseout="changue_out_color(this)">
+<td height="21"><img src="/Portal/imgs/bullet.gif" width="10" height="10">
+</td>
+<td width="100%">
+<p align="left" style="margin:0;">
+<a href="/Portal/pages/menu/selectOption.jspx?id=427">
+Gestionar Citas Medicas CAFAM
+</a>
+</p>
+
+</td>
+</tr>
+
+<!-- fila 3 nivel processSecondLevel --><tr>
+<td colspan="2" align="left">
+<div id="option427" style="display:none">
+
+</div>
+</td>
+</tr>
+<!-- /fila 3 nivel processSecondLevel -->
+<!-- end processSecondLevel -->
+
+<!-- processSecondLevel -->
+<tr height="21" onmouseover="changue_over_color(this)" onmouseout="changue_out_color(this)">
+<td height="21"><img src="/Portal/imgs/bullet.gif" width="10" height="10">
+</td>
+<td width="100%">
+<p align="left" style="margin:0;">
+<a href="/Portal/pages/menu/selectOption.jspx?id=604">
+Citas Médicas COLSUBSIDIO
+</a>
+</p>
+
+</td>
+</tr>
+
+<!-- fila 3 nivel processSecondLevel --><tr>
+<td colspan="2" align="left">
+<div id="option604" style="display:none">
+
+</div>
+</td>
+</tr>
+<!-- /fila 3 nivel processSecondLevel -->
+<!-- end processSecondLevel -->
+
+</tbody></table>
+</div>
+</td>
+</tr>
+<!-- /fila 2 nivel processFirstLevel -->
+<!-- end processFirstLevel -->
+
+</tbody></table>
+<!-- fin de tabla de opciones -->
+</div></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td><p align="center" class="style1"><a title="Contactenos" onclick="abrirpopup('/Portal/pages/home/contactenos.jspx',800,300);" href="javascript:;"><img height="25" width="174" src="/Portal/imgs/menu_contactenos.jpg" border="0"></a>
+<br><a title="Sugerencias" href="/Portal/pages/contactenos/registroSugerencias.jspx"><img height="25" width="174" src="/Portal/imgs/menu_sugerencia.jpg" border="0"></a>
+<br><a title="Felicitaciones" href="/Portal/pages/contactenos/registroFelicitacion.jspx"><img height="25" width="174" src="/Portal/imgs/menu_felicitaciones.jpg" border="0"></a>
+<br><a title="Quejas y Reclamos" href="/Portal/pages/contactenos/menuQueja.jspx"><img height="25" width="174" src="/Portal/imgs/menu_quejas_reclamos.jpg" border="0"></a></p></td></tr>
+<tr><td>&nbsp;</td></tr></tbody></table></div></td><td class="marca" valign="top"><div id="contenido"><table id="tabla_contenido_panel" width="644" cellpadding="0" cellspacing="0"><tbody><tr><td width="644"><table cellpadding="0" border="0" cellspacing="0"><tbody><tr><td id="columna_contenido_panel" align="right" width="506"><a id="_id96" href="/Portal/home.jspx" class="iceOutLnk"><img id="tabFamisanar" src="/Portal/imgs/tab_eps_1.jpg" class="iceGphImg" height="26" style="border:0" width="144" alt=""></a></td><td align="right" width="138"><a id="_id98" href="/Portal/pages/menu/welcome.jspx" class="iceOutLnk"><img id="_id99" src="/Portal/imgs/tab_servicios_2.jpg" class="iceGphImg" height="26" style="border:0" width="144" alt=""></a></td></tr>
+<tr><td colspan="2" height="20" align="right"><p align="left"><span class="infoAfiliado"><span id="prmTID">CC</span>
+ &nbsp;<span id="prmID">51666074</span>
+ &nbsp;<span id="prmName">MARIA DEL CARMEN LEON </span>
+ &nbsp;</span></p></td></tr></tbody></table></td></tr>
+<tr><td><form id="_id111" method="post" action="javascript:;" enctype="application/x-www-form-urlencoded" onsubmit="return false;"><script type="text/javascript">$element(document.getElementById('_id111')).captureAndRedirectSubmit();</script><input type="hidden" name="_id111" value="_id111"><input type="hidden" name="icefacesCssUpdates" value=""><style type="text/css">
+	.textoApoyoNegro1 {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            color: #000000; 
+            font-size: 10pt; 
+            font-weight:bold;
+            text-align: justify;
+                }
+                
+                .textoApoyo1 {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 8pt;
+            text-align: justify;
+        }
+        
+        /** Clase para fila que genera borde inferior de pagina **/
+        .bordeInferior1 {
+            border-bottom:1px solid #DCE7EF;
+        }
+        
+        /** Clase para fila que genera borde superior de pagina **/
+        .bordeSuperior1 {
+            border-top:1px solid #DCE7EF;
+        }</style>
+<div id="_id111:_id114" class="icePnlGrp"></div>
+<div id="_id111hdnFldsDiv" style="display:none;"></div></form></td></tr></tbody></table></div></td><td class="bordeDerecho">&nbsp;</td></tr></tbody></table></div>
+<div id="pie"><table width="100%" cellpadding="0" cellspacing="0"><tbody><tr><td colspan="3" class="sombraPie">&nbsp;</td></tr>
+<tr><td colspan="3" align="center"><font color="#FFFFFF" size="1"><label id="_id124" class="iceOutLbl">Versión: 6.20210831-N218 /  N218 1</label></font></td></tr></tbody></table></div></div>
+<script id="ZJ6oG_7-7fSrsmtUABJMHg:5:dynamic-code" type="text/javascript"></script>
+<noscript><meta http-equiv="refresh" content="0;url=/Portal/xmlhttp/javascript-blocked" /></noscript></body></html>

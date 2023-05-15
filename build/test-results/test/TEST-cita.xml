@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cita" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-15T14:31:25" hostname="ALEJODAD" time="42.49">
+  <properties/>
+  <testcase name="agendar cita medica" classname="cita" time="42.49"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[may 15, 2023 9:31:26 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 3122
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may 15, 2023 9:31:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>

@@ -1,0 +1,92 @@
+<html id="document:html" lang="es" version="1.2" xmlns:jsp="http://java.sun.com/JSP/Page"><head><title id="document:title"></title>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"><meta content="IE=8" http-equiv="X-UA-Compatible"><meta content="text/html; charset=UTF-8" http-equiv="content-type"><meta content=" en Linea" name="description"><meta content="spanish" name="language"><meta name="author"><meta content="no-cache" http-equiv="cache-control"><meta content="no-cache" http-equiv="pragma"><script language="javascript" type="text/javascript">
+            function e(q) {
+                if(document.getElementById("inactivo")!=null) {
+                    document.getElementById("inactivo").value = e;
+                    if(window.parent!=null) {
+                        window.parent.location.reload();
+                    }else{
+                        window.location.reload();
+                    }
+                }
+            }
+            function inactividad() {
+                e("Usuario Inactivo!!");
+            }
+            var t=null;
+            function contadorInactividad() {
+                t=setTimeout("inactividad()",1200000);
+            }
+            window.onblur=window.onmousemove=function() {
+                if(t) clearTimeout(t);
+                contadorInactividad();
+            }
+            window.onblur=window.onkeypress=function() {
+                if(t) clearTimeout(t);
+                contadorInactividad();
+            }</script>
+<script language="javascript" src="/Portal/js/jquery-1.9.1.js?v=1682676340848" type="text/javascript"></script>
+<script language="javascript" src="/Portal/js/code.js?v=1682676340848" type="text/javascript"></script>
+<script language="javascript" src="/Portal/js/block.js?v=1682676340848" type="text/javascript"></script>
+<script type="text/javascript">
+            initTabRoll('/Portal');            
+            addLoadEvent(initTabRoll);</script>
+<link href="/Portal/imgs/favicon.ico?v=1682676340848" rel="shortcut icon" type="image/vnd.microsoft.icon"><link href="/Portal/css/estructura.css?v=1682676340848" media="screen" rel="stylesheet" type="text/css"><link href="/Portal/css/famisanar.css?v=1682676340848" media="screen" rel="stylesheet" type="text/css"><link href="/Portal/css/rime/rime.css?v=1682676340848" media="screen" rel="stylesheet" type="text/css"><link href="/Portal/css/estructura.css?v=1682676340848" media="print" rel="stylesheet" type="text/css"><link href="/Portal/css/famisanar.css?v=1682676340848" media="print" rel="stylesheet" type="text/css"><link href="/Portal/css/rime/rime.css?v=1682676340848" media="print" rel="stylesheet" type="text/css"><link href="/Portal/css/fontawesome-all.css?v=1682676340848" rel="stylesheet" type="text/css"><link href="/Portal/css/lucinda-sans-all.css?v=1682676340848" rel="stylesheet" type="text/css"><meta content="Rendered by ICEFaces D2D" name="icefaces"><script src="/Portal/xmlhttp/1682676340784/icefaces-d2d.js" type="text/javascript"></script>
+<script src="/Portal/xmlhttp/1682676340784/ice-extras.js" type="text/javascript"></script>
+<script type="text/javascript">try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {}</script></head>
+<body id="document:body"><iframe frameborder="0" id="history-frame:6vNU9ERCYZs9k-nz_1YmTQ:3" name="history-frame:6vNU9ERCYZs9k-nz_1YmTQ:3" src="/Portal/xmlhttp/blank" style="z-index: 10000; visibility: hidden; width: 0; height: 0; position: absolute; opacity: 0.22; filter: alpha(opacity=22);" title="Icefaces Redirect"></iframe>
+<script id="6vNU9ERCYZs9k-nz_1YmTQ:3:configuration-script" type="text/javascript">if (!window.sessions) window.sessions = []; window.sessions.push('6vNU9ERCYZs9k-nz_1YmTQ');
+window.disposeViewsURI = '/Portal/block/dispose-views';
+var container = '6vNU9ERCYZs9k-nz_1YmTQ:3:configuration-script'.asElement().parentNode;
+container.bridge = new Ice.Community.Application({session: '6vNU9ERCYZs9k-nz_1YmTQ',view: 3,synchronous: true,connectionLostRedirectURI: null,sessionExpiredRedirectURI: '/home.jspx',connection: {context: {current: '/Portal/',async: '/Portal/'},timeout: 3000000,heartbeat: {interval: 900000,timeout: 900000,retries: 3}},messages: {sessionExpired: 'User Session Expired',connectionLost: 'Network Connection Interrupted',serverError: 'Server Internal Error',description: 'To reconnect click the Reload button on the browser or click the button below',buttonText: 'Reload'}}, container);</script>
+<div id="marcoPagina"><jsp:root version="1.2" xmlns:jsp="http://java.sun.com/JSP/Page"><div id="encabezado" style="width:100%;"><script defer="defer" src="/Portal/js/block.js?v=1682676340848" type="text/javascript"></script>
+<table cellpadding="0" cellspacing="0" style="width: 100%; min-width: 876px;  "><tbody><tr><td class="bordeIzquierdo">&nbsp;</td><td>&nbsp;</td><td class="superiorIzquierda">&nbsp;</td><td class="superiorCentro">&nbsp;</td><td class="superiorDerecha" colspan="2"><form action="javascript:;" enctype="application/x-www-form-urlencoded" id="headerForm" method="post" onsubmit="return false;"><script type="text/javascript">$element(document.getElementById('headerForm')).captureAndRedirectSubmit();</script><input name="headerForm" type="hidden" value="headerForm"><input name="icefacesCssUpdates" type="hidden" value=""><div class="iceOutConStat" id="headerForm:status111" style="font-weight: bold; position:relative; right:-634px; border:0; top:-1px; "><div class="iceOutConStatInactv" id="headerForm:status111:connection-idle" style="visibility: visible;"></div>
+<div class="iceOutConStatActv" id="headerForm:status111:connection-working" style="visibility: hidden;"></div>
+<div class="iceOutConStatCaution" id="headerForm:status111:connection-trouble" style="visibility: hidden;"></div>
+<div class="iceOutConStatDisconnect" id="headerForm:status111:connection-lost" style="visibility: hidden;"></div>
+<script type="text/javascript">'headerForm:status111'.asExtendedElement().findContainerFor('bridge').bridge.attachStatusManager(function(defaultStatusManager) {return new Ice.Status.ComponentStatusManager('headerForm:status111:connection-working', 'headerForm:status111:connection-idle', 'headerForm:status111:connection-trouble', 'headerForm:status111:connection-lost', defaultStatusManager, false, false);});</script></div><input alt="Salir" class="iceCmdBtn demoFont" id="headerForm:exitLink" name="headerForm:exitLink" onblur="setFocus('');" onclick="showLoader();iceSubmit(form,this,event);return false;" ondblclick="salir3();" onfocus="setFocus(this.id);" onkeydown="salir3();" onmousedown="salir3();" style=" background-color: #FFFFFF; font-family: Lucida-Sans-Unicode,serif; font-size: 18px; color: #0170B8; font-weight: bold; text-align: right; border: 0;  margin: -8px 2px; position:relative; right:-590px; top:-1px; " type="submit" value="Salir">
+                    &nbsp;&nbsp;<a href="https://www.famisanar.com.co" id="headerForm:inicioPortalLink" style="font-weight: bold; position:relative; right:-580px; border:0; top:-1px; " target="_blank" title="EPS FAMISANAR S.A.S."><font class="demoFont" color="#0170B8" face="Lucida-Sans-Unicode" size="4"> Inicio</font></a>
+&nbsp;&nbsp;<div id="oculto" style="display:none;"><input class="iceCmdBtn" id="headerForm:checkLink" name="headerForm:checkLink" onblur="setFocus('');" onclick="showLoader();iceSubmitPartial(form, this, event);return false;" onfocus="setFocus(this.id);" type="submit" value=""><label class="iceOutLbl" id="headerForm:j_id50">Versión: w 26 nodo 2 91 /  NODO 2 91 1</label></div>
+<div id="headerFormhdnFldsDiv" style="display:none;"></div></form></td><td class="bordeDerecho" colspan="2">&nbsp;</td></tr>
+<tr><td class="bordeIzquierdo" colspan="2">&nbsp;</td><td colspan="4" style="border-bottom:solid #1CB8C5; padding:0;  border-collapse: collapse; clear: both;  margin: 0; border: 2px; vertical-align: 0;  "><a><img align="top" alt="EPS FAMISANAR S.A.S." height="105" src="/Portal/imgs/banner_eps_usu.jpg?v=1682676340848" width="100%"></a></td><td class="bordeDerecho" colspan="2">&nbsp;</td></tr></tbody></table></div>
+    
+</jsp:root>
+<div id="marcoContenido"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="bordeIzquierdo">&nbsp;</td><td bgcolor="#FFFFFF" valign="top" width="230"><div id="navegacion"><table cellpadding="0" cellspacing="0"><tbody><tr><td><div id="menu"><span id="j_id70">
+<table cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="encabezadoMenu">
+&nbsp;
+</td>
+</tr>
+<tr>
+<td bgcolor="#e4ecf7" class="itemMenu" onmouseover="menuRoll(this);" onmouseout="menuRoll(this)">
+<a href="/Portal/pages/menu/selectMenu.jspx?id=eyJjbGFzcyI6ImNvbS5mYW1pc2FuYXIucG9ydGFsLmNvbW1vbnZvLm1vZGVsLmVudGl0eS5TZWxlY2Npb24iLCJpZCI6Miwi
+bm9kbyI6IjEiLCJzZXNzaW9uSWQiOiJGbTJwazhVeUtmdXpSaGZrbGZUSnJCa2syTXJpRW43ZERKYk1pc19HIn0='">
+Afiliado POS
+</a>
+</td>
+</tr>
+<tr>
+<td class="pieMenu">
+&nbsp;
+</td>
+</tr>
+</tbody></table>
+</span></div></td></tr>
+<tr><td><div id="opciones"><span id="j_id73"></span></div></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td><p align="center" class="style1"><a href="javascript:;" onclick="abrirpopup('/Portal/pages/home/contactenos.jspx',800,300);" title="Contactenos"><img alt="" border="0" height="25" src="/Portal/imgs/menu_contactenos.jpg?v=1682676340848" width="174"></a>
+<br><a href="/Portal/pages/contactenos/registroSugerencias.jspx" title="Sugerencias"><img alt="" border="0" height="25" src="/Portal/imgs/menu_sugerencia.jpg?v=1682676340848" width="174"></a>
+<br><a href="/Portal/pages/contactenos/registroFelicitacion.jspx" title="Felicitaciones"><img alt="" border="0" height="25" src="/Portal/imgs/menu_felicitaciones.jpg?v=1682676340848" width="174"></a>
+<br><a href="/Portal/pages/contactenos/menuQueja.jspx" title="Quejas y Reclamos"><img alt="" border="0" height="25" src="/Portal/imgs/menu_quejas_reclamos.jpg?v=1682676340848" width="174"></a></p></td></tr>
+<tr><td>&nbsp;</td></tr></tbody></table></div></td><td class="marca" valign="top"><div id="contenido"><table cellpadding="0" cellspacing="0" id="tabla_contenido_panel" width="644"><tbody><tr><td width="644"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="right" id="columna_contenido_panel" width="506"><a class="iceOutLnk" href="/Portal/home.jspx" id="j_id99"><img alt="" class="iceGphImg" height="26" id="tabFamisanar" src="/Portal/imgs/tab_eps_1.jpg?v=1682676340848" style="border:0;" width="144"></a></td><td align="right" width="138"><a class="iceOutLnk" href="/Portal/pages/menu/welcome.jspx" id="j_id101"><img alt="" class="iceGphImg" height="26" id="j_id102" src="/Portal/imgs/tab_servicios_2.jpg?v=1682676340848" style="border:0;" width="144"></a></td></tr>
+<tr><td align="right" colspan="2" height="20"><p align="left"><span class="infoAfiliado"><span id="prmTID"></span>
+ &nbsp;<span id="prmID"></span>
+ &nbsp;<span id="prmName"></span>
+ &nbsp;</span></p></td></tr></tbody></table></td></tr>
+<tr><td><form action="javascript:;" enctype="application/x-www-form-urlencoded" id="j_id114" method="post" onsubmit="return false;"><script type="text/javascript">$element(document.getElementById('j_id114')).captureAndRedirectSubmit();</script><input name="j_id114" type="hidden" value="j_id114"><input name="icefacesCssUpdates" type="hidden" value=""><div id="j_id114hdnFldsDiv" style="display:none;"></div></form></td></tr></tbody></table></div></td><td class="bordeDerecho">&nbsp;</td></tr></tbody></table></div>
+<div id="pie"><table style=" width: 100%; height: 100%;  border-collapse: separate;  border-spacing: 0;  padding: 0; "><tbody><tr><td class="sombraPie" colspan="3">&nbsp;</td></tr>
+<tr><td align="center" colspan="3"><font color="#FFFFFF" size="1"><label class="iceOutLbl" id="j_id126">Versión: w 26 nodo 2 91 /  NODO 2 91 1 - NODO - 1 </label></font></td></tr>
+<tr><td><input id="inactivo" type="hidden"></td></tr></tbody></table></div></div>
+<script id="6vNU9ERCYZs9k-nz_1YmTQ:3:dynamic-code" type="text/javascript"></script>
+<noscript><meta content="0;url=/Portal/xmlhttp/javascript-blocked" http-equiv="refresh" /></noscript></body></html>

@@ -1,0 +1,79 @@
+<html id="document:html" lang="es"><head><title id="document:title"></title>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"><meta content="IE=edge" http-equiv="X-UA-Compatible"><meta content="IE=8" http-equiv="X-UA-Compatible"><meta content=" en Linea" name="description"><meta content="spanish" name="language"><meta name="author"><meta content="no-cache" http-equiv="cache-control"><meta content="no-cache" http-equiv="pragma"><meta content="eps,famisanar,colsubsidio,cafam,pac,salud,pos,fomento,promocion,prevencion,Ley 100,entidad promotora de salud,ips,eps colombia,eps famisanar,afiliacion,autorizaciones,servicios,carnet,enlinea.famisanar.com.co,portal" name="keywords"><meta content="Portal Famisanar EPS S.A.S." name="description"><meta content="index,follow" name="robots"><meta content="document" name="resource-type"><meta content="0" http-equiv="expires"><meta content="Famisanar" name="author"><meta content="Famisanar" name="copyright"><meta content="1 days" name="revisit-after"><script language="javascript" src="/Portal/js/jquery-1.9.1.js?v=1682676328837" type="text/javascript"></script>
+<script language="javascript" src="/Portal/js/code.js?v=1682676328837" type="text/javascript"></script>
+<script language="javascript" src="/Portal/js/block.js?v=1682676328837" type="text/javascript"></script>
+<script type="text/javascript">
+            initTabRoll('/Portal');
+            addLoadEvent(initTabRoll);</script>
+<link href="/Portal/imgs/favicon.ico?v=1682676328837" rel="shortcut icon" type="image/vnd.microsoft.icon"><link href="/Portal/css/estructura.css?v=1682676328837" media="screen" rel="stylesheet" type="text/css"><link href="/Portal/css/famisanar.css?v=1682676328837" media="screen" rel="stylesheet" type="text/css"><link href="/Portal/css/rime/rime.css?v=1682676328837" media="screen" rel="stylesheet" type="text/css"><link href="/Portal/css/estructura.css?v=1682676328837" media="print" rel="stylesheet" type="text/css"><link href="/Portal/css/famisanar.css?v=1682676328837" media="print" rel="stylesheet" type="text/css"><link href="/Portal/css/rime/rime.css?v=1682676328837" media="print" rel="stylesheet" type="text/css"><link href="/Portal/css/lucinda-sans-all.css?v=1682676328837" rel="stylesheet" type="text/css"><meta content="Rendered by ICEFaces D2D" name="icefaces"><script src="/Portal/xmlhttp/1682676328772/icefaces-d2d.js" type="text/javascript"></script>
+<script src="/Portal/xmlhttp/1682676328772/ice-extras.js" type="text/javascript"></script>
+<script type="text/javascript">try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {}</script></head>
+<body id="document:body" onload="center();"><iframe frameborder="0" id="history-frame:PpR93Tf0pSy56FB-Sti_Ug:1" name="history-frame:PpR93Tf0pSy56FB-Sti_Ug:1" src="/Portal/xmlhttp/blank" style="z-index: 10000; visibility: hidden; width: 0; height: 0; position: absolute; opacity: 0.22; filter: alpha(opacity=22);" title="Icefaces Redirect"></iframe>
+<script id="PpR93Tf0pSy56FB-Sti_Ug:1:configuration-script" type="text/javascript">if (!window.sessions) window.sessions = []; window.sessions.push('PpR93Tf0pSy56FB-Sti_Ug');
+window.disposeViewsURI = '/Portal/block/dispose-views';
+var container = 'PpR93Tf0pSy56FB-Sti_Ug:1:configuration-script'.asElement().parentNode;
+container.bridge = new Ice.Community.Application({session: 'PpR93Tf0pSy56FB-Sti_Ug',view: 1,synchronous: true,connectionLostRedirectURI: null,sessionExpiredRedirectURI: '/home.jspx',connection: {context: {current: '/Portal/',async: '/Portal/'},timeout: 3000000,heartbeat: {interval: 900000,timeout: 900000,retries: 3}},messages: {sessionExpired: 'User Session Expired',connectionLost: 'Network Connection Interrupted',serverError: 'Server Internal Error',description: 'To reconnect click the Reload button on the browser or click the button below',buttonText: 'Reload'}}, container);</script>
+<div id="marcoPagina"><jsp:root version="1.2" xmlns:jsp="http://java.sun.com/JSP/Page"><div id="encabezado" style="width:100%;"><script defer="defer" src="/Portal/js/block.js?v=1682676328837" type="text/javascript"></script>
+<table cellpadding="0" cellspacing="0" style="width: 100%; min-width: 876px;  "><tbody><tr><td class="bordeIzquierdo">&nbsp;</td><td>&nbsp;</td><td class="superiorIzquierda">&nbsp;</td><td class="superiorCentro">&nbsp;</td><td class="superiorDerecha" colspan="2"><form action="javascript:;" enctype="application/x-www-form-urlencoded" id="headerForm" method="post" onsubmit="return false;"><script type="text/javascript">$element(document.getElementById('headerForm')).captureAndRedirectSubmit();</script><input name="headerForm" type="hidden" value="headerForm"><input name="icefacesCssUpdates" type="hidden" value=""><div class="iceOutConStat" id="headerForm:status111" style="font-weight: bold; position:relative; right:-634px; border:0; top:-1px; "><div class="iceOutConStatInactv" id="headerForm:status111:connection-idle" style="visibility: visible;"></div>
+<div class="iceOutConStatActv" id="headerForm:status111:connection-working" style="visibility: hidden;"></div>
+<div class="iceOutConStatCaution" id="headerForm:status111:connection-trouble" style="visibility: hidden;"></div>
+<div class="iceOutConStatDisconnect" id="headerForm:status111:connection-lost" style="visibility: hidden;"></div>
+<script type="text/javascript">'headerForm:status111'.asExtendedElement().findContainerFor('bridge').bridge.attachStatusManager(function(defaultStatusManager) {return new Ice.Status.ComponentStatusManager('headerForm:status111:connection-working', 'headerForm:status111:connection-idle', 'headerForm:status111:connection-trouble', 'headerForm:status111:connection-lost', defaultStatusManager, false, false);});</script></div>
+
+                    &nbsp;&nbsp;<a href="https://www.famisanar.com.co" id="headerForm:inicioPortalLink2" style="font-weight: bold; position:relative; right:-634px; border:0; top:-1px; " target="_blank" title="EPS FAMISANAR S.A.S."><font class="demoFont" color="#0170B8" face="Lucida-Sans-Unicode" size="4"> Inicio</font></a>
+&nbsp;&nbsp;<div id="oculto" style="display:none;"><input class="iceCmdBtn" id="headerForm:checkLink" name="headerForm:checkLink" onblur="setFocus('');" onclick="showLoader();iceSubmitPartial(form, this, event);return false;" onfocus="setFocus(this.id);" type="submit" value=""><label class="iceOutLbl" id="headerForm:j_id55">Versión: w 26 nodo 2 92 /  NODO 2 92 1</label></div>
+<div id="headerFormhdnFldsDiv" style="display:none;"></div></form></td><td class="bordeDerecho" colspan="2">&nbsp;</td></tr>
+<tr><td class="bordeIzquierdo" colspan="2">&nbsp;</td><td colspan="4" style="border-bottom:solid #1CB8C5; padding:0;  border-collapse: collapse; clear: both;  margin: 0; border: 2px; vertical-align: 0;  "><a><img align="top" alt="EPS FAMISANAR S.A.S." height="105" src="/Portal/imgs/banner_eps_usu.jpg?v=1682676328837" width="100%"></a></td><td class="bordeDerecho" colspan="2">&nbsp;</td></tr></tbody></table></div>
+    
+</jsp:root>
+<div id="marcoContenido"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="bordeIzquierdo">&nbsp;</td><td class="marca" valign="top"><div id="contenido"><table cellpadding="0" cellspacing="0" width="874"><tbody><tr><td width="874"><div class="icePnlGrp" id="j_id75"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="right" colspan="2" width="874"><img alt="" border="0" height="26" src="/Portal/imgs/tab_eps_2.jpg?v=1682676328837" width="144"></td></tr>
+<tr><td align="right" colspan="2" height="20">
+                                                        &nbsp;</td></tr></tbody></table></div></td></tr>
+<tr><td><div id="publico"><form action="javascript:;" class="iceFrm" enctype="application/x-www-form-urlencoded" id="loginForm" method="post" onsubmit="return false;"><script type="text/javascript">$element(document.getElementById('loginForm')).captureAndRedirectSubmit();</script><input name="loginForm" type="hidden" value="loginForm"><input name="icefacesCssUpdates" type="hidden" value=""><table cellpadding="0" cellspacing="0" width="854"><tbody><tr valign="top"><td width="427"><div id="publicidad"><table style=" border-collapse: collapse; border-spacing: 0; padding:0;  width: 410px; text-align: center;  "><tbody><tr><td colspan="2" width="410"><p style="color:#007CC4;font-size: 20px;margin-right: 10px;margin-top: 30px;text-align: center;"><span id="loginForm:j_id104">Famisanar en Línea es su Oficina Virtual, cada día cuenta con más servicios On-Line. <br><br><strong>Evolucionamos para estar cerca de ti.</strong></span></p></td></tr>
+<tr><td align="center" valign="top" width="410"><strong><em><a href="javascript:;" onclick="abrirpopup('/Portal/pages/home/contactenos.jspx',800,300);"><img alt="" border="0" height="54" src="/Portal/imgs/contacto_icon.png" style="margin-top:40px;" width="250"></a>
+<br></em></strong></td></tr>
+<tr><td align="center" colspan="2" width="410">
+            &nbsp;<p><a href="https://www.certicamara.com" target="_blank" title="Abrir en una ventana nueva www.certicamara.com"><img alt="Abrir en una ventana nueva www.certicamara.com" border="0" src="/Portal/imgs/certicamara.gif" width="100"></a></p>
+<p>&nbsp;</p></td></tr>
+<tr><td colspan="2" width="410"><p style="color:#007CC4;font-size: 14px;text-align: center;">Navegadores Soportados</p>
+<table style="color:#007CC4;text-align:center;font-weight:bold;font-size: 12px; margin: auto; "><tbody><tr><td><a href="https://www.mozilla.org/es-ES/firefox/new/" style="border:none;" target="_blank"><img alt="Firefox" src="imgs/firefox_logo.gif" style="width:35px;border:none;" title="Firefox"></a></td><td><a href="https://www.google.com/intl/es/chrome/browser/?hl=es" style="border:none;" target="_blank"><img alt="Chrome" src="imgs/chrome_logo.png" style="width:35px;border:none;" title="Chrome"></a></td></tr>
+<tr><td>41+</td><td>51+</td></tr></tbody></table></td></tr></tbody></table></div></td><td width="427"><div id="login"><jsp:root version="1.2" xmlns:jsp="http://java.sun.com/JSP/Page">
+
+	<jsp:directive.page contenttype="text/html;charset=windows-1252"></jsp:directive.page>
+<table align="center" cellpadding="0" cellspacing="3" width="410"><tbody><tr><td colspan="4" width="410"><span class="tituloHome"><strong>Escriba su Usuario y Clave para iniciar la sesión.</strong></span></td></tr>
+<tr><td align="left" class="mensajes" colspan="4">&nbsp;</td></tr>
+<tr><td align="left" class="mensajes" colspan="4"><ul id="loginForm:mens" style="display:none;"><li></li></ul></td></tr>
+<tr><td align="left" class="mensajes" colspan="4">&nbsp;</td></tr>
+<tr><td width="80"><label class="iceOutLbl tituloCampo" for="loginForm:tipoId" id="loginForm:j_id157">Usuario:</label></td><td class="textoApoyo" width="10">*</td><td width="220"><select class="iceSelOneMnu listaMultiple" id="loginForm:tipoId" name="loginForm:tipoId" onblur="setFocus('');" onfocus="setFocus(this.id);" size="1"><option value="3">CC</option>
+<option value="10">CD</option>
+<option value="1">CE</option>
+<option value="11">CN</option>
+<option value="7">ME</option>
+<option value="4">NT</option>
+<option value="13">PE</option>
+<option value="6">PS</option>
+<option value="14">PT</option>
+<option value="5">RC</option>
+<option value="12">SC</option>
+<option value="2">TI</option></select><input class="iceInpTxt fondoCampo" id="loginForm:id" maxlength="25" name="loginForm:id" onblur="setFocus('');toUp(id,event);setFocus('');" onfocus="setFocus(this.id);" onkeypress="iceSubmit(form,this,event);" onmousedown=";this.focus();" size="22" style="text-transform:uppercase;" type="text" value=""></td><td width="100"><span id="loginForm:j_id163"></span></td></tr>
+<tr><td width="80"><label class="iceOutLbl tituloCampo" for="loginForm:clave" id="loginForm:j_id166">Clave:</label></td><td class="textoApoyo" width="10">*</td><td width="220"><input autocomplete="off" class="iceInpSecrt fondoCampo" id="loginForm:clave" name="loginForm:clave" onblur="setFocus('');" onfocus="setFocus(this.id);" onkeypress=" this.addEventListener('keyup', ingresar(event)); iceSubmit(form,this,event);" onmousedown=";this.focus();" size="30" type="password" value=""></td><td width="100"><span id="loginForm:j_id171"></span></td></tr>
+<tr><td colspan="4" width="410">&nbsp;</td></tr>
+<tr><td align="center" colspan="3" width="310"><input class="iceCmdBtn" id="loginForm:loginButton" name="loginForm:loginButton" onblur="setFocus('');" onclick="showLoader();iceSubmit(form,this,event);return false;" onfocus="setFocus(this.id);" src="/Portal/imgs/btnIngresar.gif" type="image"></td><td align="center" width="100">&nbsp;</td></tr>
+<tr><td colspan="4" width="410">&nbsp;</td></tr>
+<tr><td class="tituloHome" colspan="4" width="410"><strong>¿Qué desea hacer?</strong></td></tr>
+<tr><td colspan="4" width="410">&nbsp;</td></tr>
+<tr><td colspan="4" width="410"><a class="iceCmdLnk iceCmdLnk2" href="javascript:;" id="loginForm:j_id215" onblur="setFocus('');" onclick="var form=formOf(this);form['loginForm:_idcl'].value='loginForm:j_id215';return iceSubmit(form,this,event);" onfocus="setFocus(this.id);">Solicitar un nuevo usuario</a></td></tr>
+<tr><td colspan="4" width="410">&nbsp;</td></tr>
+<tr><td colspan="4" width="410"><a class="iceCmdLnk iceCmdLnk2" href="javascript:;" id="loginForm:j_id221" onblur="setFocus('');" onclick="var form=formOf(this);form['loginForm:_idcl'].value='loginForm:j_id221';return iceSubmit(form,this,event);" onfocus="setFocus(this.id);">Modificar su correo electrónico</a></td></tr>
+<tr><td colspan="4" width="410">&nbsp;</td></tr>
+<tr><td colspan="4" width="410"><a class="iceCmdLnk iceCmdLnk2" href="javascript:;" id="loginForm:j_id227" onblur="setFocus('');" onclick="var form=formOf(this);form['loginForm:_idcl'].value='loginForm:j_id227';return iceSubmit(form,this,event);" onfocus="setFocus(this.id);">Cambiar su clave</a></td></tr>
+<tr><td colspan="4" width="410">&nbsp;</td></tr>
+<tr><td colspan="4" width="410"><a class="iceCmdLnk iceCmdLnk2" href="javascript:;" id="loginForm:j_id233" onblur="setFocus('');" onclick="var form=formOf(this);form['loginForm:_idcl'].value='loginForm:j_id233';return iceSubmit(form,this,event);" onfocus="setFocus(this.id);">Recordar su clave</a></td></tr></tbody></table>
+</jsp:root></div></td></tr></tbody></table>
+<div id="loginFormhdnFldsDiv" style="display:none;"><input name="loginForm:_idcl" type="hidden"></div></form>
+<br></div></td></tr></tbody></table></div></td><td class="bordeDerecho">&nbsp;</td></tr></tbody></table></div>
+<div id="pie"><table style=" width: 100%; height: 100%;  border-collapse: separate;  border-spacing: 0;  padding: 0; "><tbody><tr><td class="sombraPie" colspan="3">&nbsp;</td></tr>
+<tr><td align="center" colspan="3"><font color="#FFFFFF" size="1"><label class="iceOutLbl" id="j_id256">Versión: w 26 nodo 2 92 /  NODO 2 92 1 - NODO - 1 </label></font></td></tr>
+<tr><td><input id="inactivo" type="hidden"></td></tr></tbody></table></div></div>
+<script id="PpR93Tf0pSy56FB-Sti_Ug:1:dynamic-code" type="text/javascript"></script>
+<noscript><meta content="0;url=/Portal/xmlhttp/javascript-blocked" http-equiv="refresh" /></noscript></body></html>
