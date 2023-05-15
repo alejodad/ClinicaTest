@@ -13,5 +13,11 @@ public class FamisanarWelcome extends PageObject {
     public static final Target DATOS = Target.the("Datos Persona").locatedBy(("//td/span[contains(text(), \"51666074\")]"));
 
     public static final Target SOLICITAR = Target.the("input SOLICITAR CITA").locatedBy(("//*[@id=\"generarReporteAutorizacionesXAfiliadoForm:cmdsolicitar\"]"));
+    public static final Target INFO_CLIENTE = Target.the("Informacion cliente").locatedBy(("//label[contains(text(), \"51666074\")]"));
+    public static final Target ESPECIALIDAD = Target.the("seleccion de especialidad").located(By.id("//*[@id=\"asignarCitaForm:especialidad\"]"));
+
+    public static final Target FECHA = Target.the("seleccion de fecha").located(By.id("//*[@id=\"asignarCitaForm:consultaPor\"]"));
+    public static final Target CONSULTAR = Target.the("boton consultar").located(By.id("//*[@id=\"asignarCitaForm:cmdAceptar\"]"));
+
 
 }
