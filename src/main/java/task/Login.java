@@ -21,17 +21,17 @@ public class Login implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
          actor.attemptsTo(
-                 Enter.theValue("51666074").into(FamisanarHomeLogin.INPUT_CC),
-                 Enter.theValue("alejandra123").into(FamisanarHomeLogin.INPUT_PASS),
-                 Click.on(FamisanarHomeLogin.BTN_LOGIN),
-                 WaitUntil.the(FamisanarHomeLogin.SERVICIOS, isVisible()),
+                 Enter.theValue("51666074").into(CafamHomeLogin.INPUT_CC),
+                 Enter.theValue("Alejandra.123").into(CafamHomeLogin.INPUT_PASS).thenHit(Keys.TAB)
+
+                 /*WaitUntil.the(FamisanarHomeLogin.SERVICIOS, isVisible()),
                  Click.on(FamisanarHomeLogin.SERVICIOS),
                  WaitUntil.angularRequestsHaveFinished(),
                  WaitUntil.the(FamisanarWelcome.AFILIADO, isVisible()).forNoMoreThan(180).seconds(),
                  Click.on(FamisanarWelcome.AFILIADO),
                  WaitUntil.the(FamisanarWelcome.CITAS_POS, isClickable()),
                  Click.on(FamisanarWelcome.CITAS_POS),
-                 Click.on(FamisanarWelcome.CAFAM)
+                 Click.on(FamisanarWelcome.CAFAM) */
 
          );
 
