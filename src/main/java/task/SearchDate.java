@@ -23,9 +23,12 @@ public class SearchDate implements Task {
                  WaitUntil.the(FamisanarWelcome.INFO_CLIENTE, isVisible()).forNoMoreThan(240).seconds(),
                  SelectFromOptions.byVisibleText("Medicina General").from(FamisanarWelcome.ESPECIALIDAD),
                  SelectFromOptions.byVisibleText("Cita mas Cercana").from(FamisanarWelcome.FECHA),
-                 Click.on(FamisanarWelcome.CONSULTAR)
+                 Click.on(FamisanarWelcome.CONSULTAR),
+                 WaitUntil.the(FamisanarWelcome.TABLA_AGENDAS, isVisible()).forNoMoreThan(240).seconds(),
+                 Click.on(FamisanarWelcome.PRIMERA_OPCION),
+                 Click.on(FamisanarWelcome.ACEPTAR)
 
-         );
+                 );
 
 
     }

@@ -14,10 +14,15 @@ public class FamisanarWelcome extends PageObject {
 
     public static final Target SOLICITAR = Target.the("input SOLICITAR CITA").locatedBy(("//*[@id=\"generarReporteAutorizacionesXAfiliadoForm:cmdsolicitar\"]"));
     public static final Target INFO_CLIENTE = Target.the("Informacion cliente").locatedBy(("//label[contains(text(), \"51666074\")]"));
-    public static final Target ESPECIALIDAD = Target.the("seleccion de especialidad").located(By.id("//*[@id=\"asignarCitaForm:especialidad\"]"));
+    public static final Target ESPECIALIDAD = Target.the("seleccion de especialidad").located(By.xpath("//*[@id=\"asignarCitaForm:especialidad\"]"));
 
-    public static final Target FECHA = Target.the("seleccion de fecha").located(By.id("//*[@id=\"asignarCitaForm:consultaPor\"]"));
-    public static final Target CONSULTAR = Target.the("boton consultar").located(By.id("//*[@id=\"asignarCitaForm:cmdAceptar\"]"));
+    public static final Target FECHA = Target.the("seleccion de fecha").located(By.xpath("//*[@id=\"asignarCitaForm:consultaPor\"]"));
+    public static final Target CONSULTAR = Target.the("boton consultar").located(By.xpath("//*[@id=\"asignarCitaForm:cmdAceptar\"]"));
+    public static final Target TABLA_AGENDAS = Target.the("ditas disponibles").located(By.xpath("//span[contains(text(), \"Fecha\")]"));
+    public static final Target PRIMERA_OPCION = Target.the("ditas disponibles").located(By.xpath("//*[@id=\"asignarCitaForm:citasDisponibles:0\"]/td[1]"));
+    public static final Target ACEPTAR = Target.the("ditas disponibles").located(By.xpath("//input[@id=\"asignarCitaForm:cmdaceptar\"]"));
+
+
 
 
 }
