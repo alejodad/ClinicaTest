@@ -18,11 +18,16 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClic
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class Login implements Task {
+    private String userV;
+    private String pwdV;
+    public Login(String user,String pwd){this.pwdV=user; this.userV=pwd;}
     @Override
     public <T extends Actor> void performAs(T actor) {
+
+
          actor.attemptsTo(
-                 Enter.theValue("51666074").into(CafamHomeLogin.INPUT_CC),
-                 Enter.theValue("Alejandra.123").into(CafamHomeLogin.INPUT_PASS).thenHit(Keys.TAB)
+                 Enter.theValue(userV).into(CafamHomeLogin.INPUT_CC),
+                 Enter.theValue(pwdV).into(CafamHomeLogin.INPUT_PASS).thenHit(Keys.TAB)
 
                  /*WaitUntil.the(FamisanarHomeLogin.SERVICIOS, isVisible()),
                  Click.on(FamisanarHomeLogin.SERVICIOS),
@@ -37,7 +42,7 @@ public class Login implements Task {
 
 
     }
-    public static Login theApp(){
-        return instrumented(Login.class);
+    public static Login theApp(String user, String pwd){
+        return instrumented(Login.class, user, pwd);
     }
 }

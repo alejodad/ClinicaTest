@@ -27,6 +27,8 @@ public class citaStepDefinitions {
     private CafamHomeLogin streamProjectHome;
     @Managed(driver = "chrome")
     private WebDriver hisBrowser;
+    private util.Login login= new util.Login();
+
     ArrayList al = new ArrayList();
     public Actor alejo = Actor.named("Alejandro");
     @Before
@@ -34,14 +36,20 @@ public class citaStepDefinitions {
         alejo.can(BrowseTheWeb.with(hisBrowser));
         hisBrowser.manage().window().maximize();
         hisBrowser.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        login.showLoginDialog();
 
+        String username = login.getUsername();
+        String password = login.getPassword();
+        alejo.remember("user",username);
+        alejo.remember("pwd",password);
     }
 
     @Given("Usuario esta en pagina principal")
     public void usuario_esta_en_pagina_principal() {
+
         streamProjectHome.open();
         alejo.wasAbleTo(
-                Login.theApp()
+                Login.theApp(alejo.recall("user"),alejo.recall("pwd"))
         );
         new WebDriverWait(hisBrowser, 10).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//iframe[starts-with(@name, 'a-') and starts-with(@src, 'https://www.google.com/recaptcha')]")));
         new WebDriverWait(hisBrowser, 20).until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.rc-anchor-center-container"))).click();

@@ -44,7 +44,8 @@ public class SearchDate implements Task {
               WaitUntil.the(CafamHomeLogin.TEXTO_SOLICITAR, isVisible()).forNoMoreThan(30).seconds().then(Scroll.to(CafamHomeLogin.TEXTO_SOLICITAR)).then(Click.on(CafamHomeLogin.BTN_CITAS)),
               WaitUntil.the(CafamHomeLogin.DISPONIBLES, isVisible()).forNoMoreThan(30).seconds().then(Scroll.to(CafamHomeLogin.DISPONIBLES)),
               Click.on(CafamHomeLogin.SOLCITAR),
-              WaitUntil.the(CafamHomeLogin.ASIGNAR_CITA, isVisible()).then(Click.on(CafamHomeLogin.ASIGNAR_CITA))
+              WaitUntil.the(CafamHomeLogin.ASIGNAR_CITA, isVisible())
+              //,Click.on(CafamHomeLogin.ASIGNAR_CITA)
 
 
               /*   WaitUntil.the(FamisanarWelcome.DATOS, isVisible()).forNoMoreThan(180).seconds(),
