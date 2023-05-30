@@ -11,6 +11,7 @@ public class FamisanarWelcome extends PageObject {
     public static final Target CITAS_POS = Target.the("opcion cita pos").located(By.xpath("//div[contains(text(), \"Citas\")]"));
     public static final Target CAFAM = Target.the("CAFAM").located(By.xpath("//a[contains(text(), \"CAFAM\")]"));
     public static final Target DATOS = Target.the("Datos Persona").locatedBy(("//td/span[contains(text(), \"51666074\")]"));
+    public static final Target DATOS_TD = Target.the("Datos Persona").locatedBy(("//tr[@id='generarReporteAutorizacionesXAfiliadoForm:resumenDataTable:0']//td[1]"));
 
     public static final Target SOLICITAR = Target.the("input SOLICITAR CITA").locatedBy(("//*[@id=\"generarReporteAutorizacionesXAfiliadoForm:cmdsolicitar\"]"));
     public static final Target INFO_CLIENTE = Target.the("Informacion cliente").locatedBy(("//label[contains(text(), \"51666074\")]"));

@@ -13,10 +13,10 @@ public class Login {
         JPanel panel = new JPanel();
         panel.add(new JLabel("Usuario:"));
         panel.add(usernameField);
-        panel.add(new JLabel("Contraseña:"));
+        panel.add(new JLabel("Contrasena:"));
         panel.add(passwordField);
 
-        int option = JOptionPane.showConfirmDialog(null, panel, "Iniciar sesión", JOptionPane.OK_CANCEL_OPTION);
+        int option = JOptionPane.showConfirmDialog(null, panel, "Iniciar sesion", JOptionPane.OK_CANCEL_OPTION);
         if (option == JOptionPane.OK_OPTION) {
             username = usernameField.getText();
             password = new String(passwordField.getPassword());
