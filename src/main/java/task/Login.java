@@ -20,7 +20,7 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
 public class Login implements Task {
     private String userV;
     private String pwdV;
-    public Login(String user,String pwd){this.pwdV=user; this.userV=pwd;}
+    public Login(String user,String pwd){this.userV=user; this.pwdV=pwd;}
     @Override
     public <T extends Actor> void performAs(T actor) {
 
