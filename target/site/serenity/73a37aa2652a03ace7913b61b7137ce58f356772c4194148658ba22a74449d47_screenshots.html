@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-05-2023 08:47</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 30-05-2023 10:12</span>
     <br style="clear:left"/>
 </div>
 
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">agendar cita medica
+                                <span class="error-color">agendar cita medica
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -208,46 +208,55 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: no such window: target window already closed</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>task.Login.performAs(Login.java:26)<br />stepdefinitions.citaStepDefinitions.usuario_esta_en_pagina_principal(citaStepDefinitions.java:43)<br />io.cucumber.java.Invoker.invoke(Invoker.java:27)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:49)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:51)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:67)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="04002d60a4e9d884f0859178254dc4cf992758ced35fcbc3da967fdb513e43ad.png" title=" Given Usuario esta en pagina principal" width="1360"/>
-                <img src="d9123acb432164ba77f4a92a1e0c1e1736dc36e792f07c9d3416ba863ad55f46.png" title=" Alejandro login" width="1360"/>
-                <img src="d9123acb432164ba77f4a92a1e0c1e1736dc36e792f07c9d3416ba863ad55f46.png" title=" Alejandro enters '51666074' into input cedula" width="1360"/>
-                <img src="6914b1ba6129857f03ecf459b7806576f4df7d5a7a9addf25c9fade71afd3672.png" title=" Alejandro enters '51666074' into input cedula (completed)" width="1360"/>
-                <img src="6914b1ba6129857f03ecf459b7806576f4df7d5a7a9addf25c9fade71afd3672.png" title=" Alejandro enters 'alejandra123' into input cedula" width="1360"/>
-                <img src="529c600979b102851990dc43fd148d7286dc1b979bfa1f89384df94632df63fd.png" title=" Alejandro enters 'alejandra123' into input cedula (completed)" width="1360"/>
-                <img src="529c600979b102851990dc43fd148d7286dc1b979bfa1f89384df94632df63fd.png" title=" Alejandro clicks on input cedula" width="1360"/>
-                <img src="58a56f68b990ffb7fa6f60c2dab85bc64f0147992b9cc0e38cf08075a951104a.png" title=" Alejandro clicks on input cedula (completed)" width="1360"/>
-                <img src="2309eb55490cabf9152f759ee2e6997b1eaf68ffafebc1edc38baec938f4e017.png" title=" Alejandro clicks on banner de servicios " width="1360"/>
-                <img src="e5b6ec8b14a5cdabbbcd1ca7b1036e2173316c92a88cc4f301c1e26d5c570a17.png" title=" Alejandro clicks on banner de servicios  (completed)" width="1360"/>
-                <img src="e5b6ec8b14a5cdabbbcd1ca7b1036e2173316c92a88cc4f301c1e26d5c570a17.png" title=" Alejandro wait until angular is ready" width="1360"/>
-                <img src="e5b6ec8b14a5cdabbbcd1ca7b1036e2173316c92a88cc4f301c1e26d5c570a17.png" title=" Alejandro wait until angular is ready (completed)" width="1360"/>
-                <img src="e5b6ec8b14a5cdabbbcd1ca7b1036e2173316c92a88cc4f301c1e26d5c570a17.png" title=" Alejandro clicks on banner afiliado" width="1360"/>
-                <img src="608f46a5e0b98b3a0635f00cca90ca5628c54188392fb08c6a80d9dd081926e1.png" title=" Alejandro clicks on banner afiliado (completed)" width="1360"/>
-                <img src="608f46a5e0b98b3a0635f00cca90ca5628c54188392fb08c6a80d9dd081926e1.png" title=" Alejandro clicks on opcion cita pos" width="1360"/>
-                <img src="3cbd3e272a75eb9e41fcd0bbf22c0674b58306c61b17bfa3e884066b9b54e6d0.png" title=" Alejandro clicks on opcion cita pos (completed)" width="1360"/>
-                <img src="3cbd3e272a75eb9e41fcd0bbf22c0674b58306c61b17bfa3e884066b9b54e6d0.png" title=" Alejandro clicks on CAFAM" width="1360"/>
-                <img src="a4cdcd3343cfe6fbf6de5a39ae9a2eab0ebbc4159a658a4b49da37621b2ed250.png" title=" Alejandro clicks on CAFAM (completed)" width="1360"/>
-                <img src="a4cdcd3343cfe6fbf6de5a39ae9a2eab0ebbc4159a658a4b49da37621b2ed250.png" title=" Alejandro login (completed)" width="1360"/>
-                <img src="a4cdcd3343cfe6fbf6de5a39ae9a2eab0ebbc4159a658a4b49da37621b2ed250.png" title=" Given Usuario esta en pagina principal (completed)" width="1360"/>
-                <img src="e4a2caff43ee742eed17c3dd81a060245a37b82465c94ceceb3fbc6ff477abe4.png" title=" When Busca cita mas cercana" width="1360"/>
-                <img src="e4a2caff43ee742eed17c3dd81a060245a37b82465c94ceceb3fbc6ff477abe4.png" title=" Alejandro search date" width="1360"/>
-                <img src="e4a2caff43ee742eed17c3dd81a060245a37b82465c94ceceb3fbc6ff477abe4.png" title=" Alejandro clicks on Datos Persona" width="1360"/>
-                <img src="e4a2caff43ee742eed17c3dd81a060245a37b82465c94ceceb3fbc6ff477abe4.png" title=" Alejandro clicks on input SOLICITAR CITA" width="1360"/>
-                <img src="45b707206cd43da410f6add4aa4a2b23799530241b2f4c0ec8b1c4f75fd96566.png" title=" Alejandro clicks on input SOLICITAR CITA (completed)" width="1360"/>
-                <img src="e230b5d78853a00371f3183d8b98df9b968397aa3aa5b3b5179961a597c9f672.png" title=" Alejandro select Medicina General on seleccion de especialidad" width="1360"/>
-                <img src="1667cfe6a01e0cd2c9c2b98b26dd81612ebfb5a2137f939d8264a9e84355e80b.png" title=" Alejandro select Medicina General on seleccion de especialidad (completed)" width="1360"/>
-                <img src="1667cfe6a01e0cd2c9c2b98b26dd81612ebfb5a2137f939d8264a9e84355e80b.png" title=" Alejandro select Cita mas Cercana on seleccion de fecha" width="1360"/>
-                <img src="8297ba5d88e32806ff149a7a8b627de2d7c127e4948115f3d91ea8127619f5de.png" title=" Alejandro select Cita mas Cercana on seleccion de fecha (completed)" width="1360"/>
-                <img src="8297ba5d88e32806ff149a7a8b627de2d7c127e4948115f3d91ea8127619f5de.png" title=" Alejandro clicks on boton consultar" width="1360"/>
-                <img src="8f0cff039888c992b48b8a429c4e5da809c048eeed510d24f854ab6b4680bada.png" title=" Alejandro clicks on boton consultar (completed)" width="1360"/>
-                <img src="6ce8e525fffc1e5c104e6be9a58c47922e6e2628b98844f275f098932c293aa0.png" title=" Alejandro clicks on ditas disponibles" width="1360"/>
-                <img src="fd929b2e7f01e5fc7504c21b6cb28e5801f8f48d27ac21a99798bc2387249f5b.png" title=" Alejandro clicks on ditas disponibles (completed)" width="1360"/>
-                <img src="fd929b2e7f01e5fc7504c21b6cb28e5801f8f48d27ac21a99798bc2387249f5b.png" title=" Alejandro clicks on ditas disponibles" width="1360"/>
-                <img src="27fc0b4b8ee08a52a0857ea24063d7e98b7be20a5b94005847ad02d7493b9a22.png" title=" Alejandro clicks on ditas disponibles (completed)" width="1360"/>
-                <img src="27fc0b4b8ee08a52a0857ea24063d7e98b7be20a5b94005847ad02d7493b9a22.png" title=" Alejandro search date (completed)" width="1360"/>
-                <img src="27fc0b4b8ee08a52a0857ea24063d7e98b7be20a5b94005847ad02d7493b9a22.png" title=" When Busca cita mas cercana (completed)" width="1360"/>
-                <img src="27fc0b4b8ee08a52a0857ea24063d7e98b7be20a5b94005847ad02d7493b9a22.png" title=" Then Agenda cita mas cerca: <span class='success-color'>SUCCESS</span>" width="1360"/>
+                <img src="6996c1ace7f6b2289391cdb64c87116a700a4e3f8448200a30c3f75542e8ed68.png" title=" Alejandro login" width="1360"/>
+                <img src="6996c1ace7f6b2289391cdb64c87116a700a4e3f8448200a30c3f75542e8ed68.png" title=" Alejandro enters 'alejandra123' into input cedula" width="1360"/>
+                <img src="b870ec4533e43dd2b46b9677c4daa40fc57eaac2c4913b2d0079ab890d405272.png" title=" Alejandro enters 'alejandra123' into input cedula (completed)" width="1360"/>
+                <img src="b870ec4533e43dd2b46b9677c4daa40fc57eaac2c4913b2d0079ab890d405272.png" title=" Alejandro enters '51666074' into input cedula" width="1360"/>
+                <img src="78115649e389af503832e4161cc22d4039cd8915e1f3c69d8595b3a02a192bd5.png" title=" Alejandro enters '51666074' into input cedula (completed)" width="1360"/>
+                <img src="78115649e389af503832e4161cc22d4039cd8915e1f3c69d8595b3a02a192bd5.png" title=" Alejandro clicks on input cedula" width="1360"/>
+                <img src="4e4e05b5de3acdd3045386c678a8c1af78612af0dca11209340af9ab28bd416f.png" title=" Alejandro clicks on input cedula (completed): <span class='error-color'>ERROR</span>" width="1360"/>
             </div>
         </div>
 
