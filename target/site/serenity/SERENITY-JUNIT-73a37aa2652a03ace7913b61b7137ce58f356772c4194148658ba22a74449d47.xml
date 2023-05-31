@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="cita" skipped="0" tests="1" time="50.66" timestamp="2023-05-30 04:58:35"><testcase name="agendar cita medica"><failure message="Expected enabled element was not clickable" type="java.lang.AssertionError">Expected enabled element was not clickable</failure><system-err>Expected enabled element was not clickable&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="cita" skipped="0" tests="1" time="62.57" timestamp="2023-05-30 08:23:19"><testcase name="agendar cita medica"><failure message="Expected enabled element was not clickable" type="java.lang.AssertionError">Expected enabled element was not clickable</failure><system-err>Expected enabled element was not clickable&#13;
 task.Login.performAs(Login.java:26)&#13;
 stepdefinitions.citaStepDefinitions.usuario_esta_en_pagina_principal(citaStepDefinitions.java:43)&#13;
 io.cucumber.java.Invoker.invoke(Invoker.java:27)&#13;
